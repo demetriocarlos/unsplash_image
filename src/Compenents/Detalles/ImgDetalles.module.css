@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&family=Nanum+Gothic&family=Poppins:wght@400;700&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+body {
+    background: #e5e5e5;
+     
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #e5e5e5;
+}
+
+.image{
+    border-radius: 7%;
+}
+
+.col{
+     
+        max-width: 400px;
+        margin: 10px;
+        height: auto;
+        height: 80%;
+    
+}
+
+.descripcion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    color: #76a7d7;
+}
+
+@media (max-width: 480px) {
+    .image{
+        width: 95%;
+    }
+  }
