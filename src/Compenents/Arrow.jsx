@@ -7,13 +7,13 @@
 export const Arrow = ({page,setPage,totalPages}) => {
   return (
     <div className={style.buttons}>
-      
-    {page > 1 && (
-      <Button className={style.boton} onClick={() => setPage(page - 1)}> <Izquierda/></Button>
+       
+    {page > 1 && (  
+      <a href="#titulo"><Button className={style.boton} onClick={() => setPage(page - 1)}> <Izquierda/></Button></a>
     )}
     {  page < totalPages && (<p>{page}</p>)}
     {page < totalPages && (
-      <Button className={style.boton} onClick={() => setPage(page + 1)}><Derecha/></Button>
+      <a href="#titulo"> <Button className={style.boton} onClick={() => setPage(page + 1)}><Derecha/></Button></a>
       )}
 
   </div>

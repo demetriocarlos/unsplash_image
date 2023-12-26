@@ -77,7 +77,7 @@ const resetSearch = ()=>{
      
       <div className="container">
        
-         <h1 className="title">Image Search</h1>
+         <h1 id="titulo" className="title">Image Search</h1>
          {/**mensaje de error mostrado en la pantalla */}
          {errorMsg && <p className="error-msg">{errorMsg}</p>}
 
