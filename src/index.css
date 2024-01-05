@@ -54,7 +54,7 @@ body {
   }
 
   .search-section .search-input {
-    min-width: 500px;
+    min-width: 300px;
     padding: var(--default-spacing);
   }
 
@@ -107,7 +107,9 @@ body {
 
   @media (max-width: 768px) {
     .images {
-      grid-template-columns: repeat(2, 1fr);
+      width: 90%;
+      height: auto;
+      justify-content: center;
     }
   }
   
