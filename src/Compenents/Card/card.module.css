@@ -1,0 +1,21 @@
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+
+.image:hover {
+    transform: translateY(-3px);
+  }
+
+
+  @media (max-width: 560){
+    .image{
+        width: 95%;
+        height: auto;
+         
+    }
+}

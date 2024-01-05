@@ -1,7 +1,7 @@
 
 import { Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
-
+import styles from './card.module.css'
 export const ImageCard = ({image}) => {
   return (
     <> 
@@ -11,7 +11,7 @@ export const ImageCard = ({image}) => {
              
             src={image.urls.small} 
             alt={image.alt_description} 
-            className="image"
+            className={styles.image}
             />
       </Link>
     </div>

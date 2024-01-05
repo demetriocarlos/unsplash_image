@@ -5,10 +5,10 @@ import { Search } from "./Search/Search"
 import { ImageCard } from "./Card/ImageCard"
 import { Arrow } from "./Arrow"
 import { Spinner } from "./Iconos/Spinner"
-
+import styles from './ImgGrid.module.css'
 
 const API_URL ='https://api.unsplash.com/search/photos'
-const IMAGES_PER_PAGE=20;
+const IMAGES_PER_PAGE=24;
 
 function ImageGrid() {
   console.log('key',import.meta.env.VITE_API_KEY)
@@ -96,7 +96,7 @@ const resetSearch = ()=>{
               <Spinner/>
              ) : ( 
               <> 
-        <div className="images"> 
+        <div className={styles.images}> 
           {//mostrar imagenes
             images.map((image) => ( 
            
