@@ -2,6 +2,7 @@
 import { Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import styles from './card.module.css'
+
 export const ImageCard = ({image}) => {
   return (
     <> 

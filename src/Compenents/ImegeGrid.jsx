@@ -109,6 +109,7 @@ const resetSearch = ()=>{
           <Arrow page={page}  setPage={setPage} totalPages={totalPages}/>
           </>
           )}
+          
       </div>
           
        
