@@ -1,6 +1,6 @@
 
 .image{
-    width: 200px;
+    width: 240px;
     height: 200px;
     border-radius: 10px;
     transition: transform 0.5s;
@@ -12,9 +12,9 @@
   }
 
 
-  @media (max-width: 560){
+  @media (max-width: 560px){
     .image{
-        width: 95%;
+        width: 100%;
         height: auto;
          
     }
